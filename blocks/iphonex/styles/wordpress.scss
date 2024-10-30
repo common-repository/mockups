@@ -1,0 +1,38 @@
+// WordPress variations when placed inside WP native blocks
+@media (min-width: 600px) {
+  .wp-block-column {
+    .ui-cover {
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+  }
+  .wp-block-column:first-child {
+    .ui-cover {
+      padding-left: 32px;
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+  }
+  .wp-block-column:last-child {
+    .ui-cover {
+      padding-right: 32px;
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+  }
+}
+
+// Theme-specific fixes and changes
+// Twenty Nineteen
+
+// Remove border style on headers
+.ui-blocks-cover {
+  h1:before, h2:before {
+    content: unset;
+  }
+  
+}
+// Remove underline on links
+.entry .entry-content .ui-blocks-cover-button {
+  text-decoration: none;
+}

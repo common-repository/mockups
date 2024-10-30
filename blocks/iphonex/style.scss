@@ -1,0 +1,28 @@
+.mockups-wrapper {
+  position: relative;
+}
+
+.mockups {
+  all: unset;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mockups__screen {
+  all: unset;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  // filter: blur(1px); // optional
+}
+.mockups__screen {
+  img.mockups__screen-image {
+    position: static;
+  }
+}
+
+.mockups__body {
+  max-width: unset !important;
+}

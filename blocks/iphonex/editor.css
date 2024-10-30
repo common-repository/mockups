@@ -1,0 +1,47 @@
+/* Inspector panel */
+
+.mockups-list-item-inspector {
+  display:block;
+  /* border: 1px solid salmon; */
+}
+
+.mockups_select-image--js {
+  border: 1px solid #eee;
+  padding: 5px;
+  max-height: 100px;
+}
+.mockups_select-image--selected {
+  border: 1px solid #007cba;
+  padding: 5px;
+  max-height: 100px;
+}
+
+/* Preview */
+
+.mockups-wrapper--js {
+  position: relative;
+}
+.mockups--js {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mockups__screen--js {
+  all: unset;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  /* filter: blur(1px); */
+}
+
+.mockups__body--js {
+  max-width: unset !important;
+}
+
+.mockups__screen-image--js {
+  all: unset;
+}
+
+
